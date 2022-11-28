@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gamerz</title>
+    <link rel="icon" type="image/x-icon" href="resources/images/logo.png">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- normalize css -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <!-- custom css -->
+    <link rel = "stylesheet" href = "css/main.css">
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class = "navbar">
+        <div class = "container flex">
+            <a href = "#" class = "navbar-brand">Hello<span>Gamerz</span></a>
+
+            <div class = "navbar-collapse">
+                <button type = "button" class = "navbar-toggler-close">
+                    <i class = "fas fa-times"></i>
+                </button>
+                <ul class = "navbar-nav">
+                    <li class = "nav-item">
+                        <a href = "#" class = "nav-link">home</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#header" class = "nav-link">games</a>
+                        <span class = "nav-item-dropdown">
+                            <i class = "fas fa-chevron-down"></i>
+                        </span>
+                        <ul class = "nav-item-dropdown-content">
+                            <li><a href = "https://store.playstation.com/en-in/category/44d8bb20-653e-431e-8ad0-c0a365f68d2f/1">PS4</a></li>
+                            <li><a href = "https://www.xbox.com/en-IN/games/all-games">Xbox</a></li>
+                            <li><a href = "#pubg">PUBG</a></li>
+                        </ul>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#news" class = "nav-link">news</a>
+                        <span class = "nav-item-dropdown">
+                            <i class = "fas fa-chevron-down"></i>
+                        </span>
+                        <ul class = "nav-item-dropdown-content">
+                            <li><a href = "#news">Latest</a></li>
+                        </ul>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#reviews" class = "nav-link">reviews</a>
+                        <span class = "nav-item-dropdown">
+                            <i class = "fas fa-chevron-down"></i>
+                        </span>
+                        <ul class = "nav-item-dropdown-content">
+                            <li><a href = "#">Entertainment</a></li>
+                            <li><a href = "#">Games</a></li>
+                        </ul>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "#videos" class = "nav-link">videos</a>
+                    </li>
+                    <li class = "nav-item">
+                        <a href = "Contact-form-main/index.html" class = "nav-link">Contact-Us</a>
+                        <span class = "nav-item-dropdown">
+                        </span>
+                    </li>
+                    <button type = "button" class = "navbar-toggler-close">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "Register/index.html" class = "nav-link">Register</a>
+                        </li>
+                </ul>
+            </div>
+
+            <div class = "nav-icons-group">
+                <form class = "search-form">
+                    <div class = "search-icon-group">
+                        <input type = "search" class = "search-control">
+                        <button type = "submit" class = "search-icon">
+                            <i class = "fas fa-search"></i>
+                        </button>
+                    </div>
+                </form>
+                <button type = "button" class = "navbar-toggler-open">
+                    <i class = "fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+
+    <!-- header -->
+    <header id = "header">
+        <div class = "container">
+            <div class = "header-content">
+                <div class = "header-item">
+                    <a href="https://overwatch.blizzard.com/en-us/" > <img src = "resources/images/img-1.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>A NEW ERA HAS BEGUN</h2>
+                        
+                        <p class = "text">Overwatch 2 is a free-to-play, team-based action game set in the optimistic future, where every match is the ultimate 5v5 battlefield brawl.Play as a time-jumping freedom fighter, a beat-dropping battlefield DJ, or one of over 30 other unique heroes as you battle it out around the globe.</p>
+                        <div>
+                            <a href = "https://us.forums.blizzard.com/en/overwatch/">Read More</a>
+                            <a href = "https://us.shop.battle.net/en-us/product/overwatch?blzcmp=ow_gamesite">Free Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://www.leagueoflegends.com/en-gb/" > <img src = "resources/images/img-5.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>League of Legends: A team-based game with over 140 champions to make epic plays with.</h2>
+                        
+                        <p class = "text">League of Legends has received awards for its contribution to esports. It was nominated for Best Esports Game at The Game Awards in 2017 and 2018,[99][100] then won in 2019 and 2020.</p>
+                        <div>
+                            <a href = "https://universe.leagueoflegends.com/en_US/">Read More</a>
+                            <a href = "https://signup.leagueoflegends.com/en-us/signup/index#/">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item" id="pubg">
+                   <a href="https://na.battlegrounds.pubg.com/"> <img src = "resources/images/img2.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>PUBG: Player Unknown's Battlegrounds</h2>
+                        <p class = "text">While still in early access, Battlegrounds won the "Best Multiplayer Game" and was also nominated for the categories "Game of the Year" and "Best Ongoing Game" at The Game Awards 2017</p>
+                        <div>
+                           <a href="https://krafton.com/en/about/about/">Read More</a>
+                           <a href="https://www.xbox.com/en-IN/games/store/p/C0MN5DN8KR3F/0001">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://www.ea.com/games/apex-legends"> <img src = "resources/images/img-3.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>Apex Legends Evolution Collection Events</h2>
+                        <div>
+                            <a href = "https://www.ea.com/games/apex-legends/about">Read More</a>
+                            <a href="https://www.ea.com/games/apex-legends/play-now-for-free">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://playvalorant.com/en-us/"> <img src = "resources/images/img-6.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>VALORANT: a 5v5 character-based tactical FPS where precise gunplay meets unique agent abilities</h2>
+                        <div>
+                            <a href = "https://playvalorant.com/en-us/agents/">Read More</a>
+                            <a href="https://auth.riotgames.com/login#client_id=prod-xsso-playvalorant&code_challenge=SJV-hrKTQhzPLdLTTc33n99pUEFzHl0P0UznKV_v4Kk&code_challenge_method=S256&redirect_uri=https%3A%2F%2Fxsso.playvalorant.com%2Fredirect&response_type=code&scope=openid%20account&state=cea3fb518b70f18d22678c4166&uri=https%3A%2F%2Fplayvalorant.com%2Fen-us%2Fagents%2F">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://www.dota2.com/home"> <img src = "resources/images/img7.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>DOTA 2: Multi-player action RTS game ever made and there's always a new strategy or tactic to discover</h2>
+                        <div>
+                            <a href = "https://www.dota2.com/esports/ti11/about">Read More</a>
+                            <a href="https://store.steampowered.com/app/570/Dota_2/">Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://www.dota2.com/home"> <img src = "resources/images/img8.png"></a>
+                    <div class = "header-item-text">
+                        <h2>NFS: Need for Speed (NFS) is a racing game franchise developed by Criterion Games</h2>
+                        <div>
+                            <a href = "https://www.ea.com/games/need-for-speed/need-for-speed-heat">Read More</a>
+                            <a href="https://www.ea.com/games/need-for-speed/need-for-speed-heat/buy">Buy</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="CHESS/index.html"> <img src = "resources/images/chess.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>PLAY FREE MULTIPLAYER CHESS GAME</h2>
+                        <div>
+                            <a href="CHESS/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="TICTACTOE/index.html"> <img src = "resources/images/tic.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>Play friendly TIC-TAC-TOE Game Here for free</h2>
+                        <div>
+                            <a href="TICTACTOE/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="candy-crush/index.html"> <img src = "resources/images/candy.png"></a>
+                    <div class = "header-item-text">
+                        <h2>Play Candy Crush Game Here for free</h2>
+                        <div>
+                            <a href="candy-crush/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="Snake/index.html"> <img src = "resources/images/snake.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>Play Snake Game Here for free</h2>
+                        <div>
+                            <a href="Snake/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="tower-defense/index.html"> <img src = "resources/images/tower-defense.png"></a>
+                    <div class = "header-item-text">
+                        <h2>Play Tower Defence Game Here for free</h2>
+                        <div>
+                            <a href="tower-defense/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="AlienInvasion/index.html"> <img src = "resources/images/alien.jpg"></a>
+                    <div class = "header-item-text">
+                        <h2>Play Alien Invasion Game Here for free</h2>
+                        <div>
+                            <a href="AlienInvasion/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="https://mk.mgechev.com/" > <img src = "resources/images/mk.js"></a>
+                    <div class = "header-item-text">
+                        <h2>Play multiplayer fighting Game Here for free</h2>
+                        <div>
+                            <a href="https://mk.mgechev.com/">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+                <div class = "header-item">
+                    <a href="fighting-game-main/index.html"><img src="resources/images/ninja.png"></a>
+                    <div class = "header-item-text">
+                        <h2>Play multiplayer ninja fighting Game Here for free</h2>
+                        <div>
+                            <a href="fighting-game-main/index.html">Play Free</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- main -->
+    <main>
+        <!-- news section -->
+        <section id = "news">
+            <div class = "title">
+                <div class = "container">
+                    <h2>
+                        <i class = "fas fa-rss"></i> News
+                    </h2>
+                </div>
+            </div>
+
+                <div class = "container">
+                    <!-- news latest -->
+                    <div class = "news-latest">
+                        <h3>Latest News</h3>
+                        <article>
+                            <div class = "item-img">
+                                <img src = "resources/images/news-1.jpg">
+                                <span>
+                                    <i class = "fas fa-comment"></i> 10
+                                </span>
+                            </div>
+                            <div class = "item-text">
+                                <a href = "#" class = "h1">
+                                    <span class = "category">latest</span>Call of Duty Warzone Mobile pre-registrations begin for iOS, releases on May 15, 2023
+                                </a>
+                                <p class = "text">Activision has finally opened the pre-registrations for Call of Duty Warzone Mobile for the iOS platform. This comes months after the publisher started taking registrations on Google Play Store for Android.</p>
+                                <div class = "date">News | Latest | 11:00 AM</div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class = "item-img">
+                                <img src = "resources/images/news-2.jpeg">
+                                <span>
+                                    <i class = "fas fa-comment"></i> 10
+                                </span>
+                            </div>
+                            <div class = "item-text">
+                                <a href = "#" class = "h1">
+                                    <span class = "category">latest</span>The Witcher 3: Wild Hunt's next-gen update is coming on December 14
+                                </a>
+                                <p class = "text">The Witcher 3 was due for an update last year, however, that didn’t happen. Later, it was expected to launch early this year, but again, the project was delayed. Now, finally, CD Projekt Red has confirmed that the game is getting the next-gen update at the end of this year.</p>
+                                <div class = "date">News | Latest | 11:00 AM</div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class = "item-img">
+                                <img src = "resources/images/news3.jpg">
+                                <span>
+                                    <i class = "fas fa-comment"></i> 10
+                                </span>
+                            </div>
+                            <div class = "item-text">
+                                <a href = "#" class = "h1">
+                                    <span class = "category">latest</span>God of War Ragnarok launched for PS5 and PS4: 
+                                </a>
+                                <p class = "text">The God of War Ragnarok is available only in the standard Launch Edition in India. The Collector’s Edition and Jotnar Edition, which are available in the US, are likely to release later in the country.</p>
+                                <div class = "date">News | Latest | 11:00 AM</div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class = "item-img">
+                                <img src = "resources/images/news41.jpg">
+                                <span>
+                                    <i class = "fas fa-comment"></i> 10
+                                </span>
+                            </div>
+                            <div class = "item-text">
+                                <a href = "#" class = "h1">
+                                    <span class = "category">latest</span>Prince of Persia: The Sands of Time Remake is not cancelled
+                                </a>
+                                <p class = "text">Ubisoft’s long-delayed Prince of Persia: The Sands of Time Remake is surely getting developed but it looks like there will be some further delay. Ubisoft is cancelling the pre-orders and offering refunds. It has also confirmed that there won’t be any other remake of the Prince of Persia title other than The Sands of Time. </p>
+                                <div class = "date">News | Latest | 11:00 AM</div>
+                            </div>
+                        </article>
+
+                        <article>
+                            <div class = "item-img">
+                                <img src = "resources/images/news4.jpg">
+                                <span>
+                                    <i class = "fas fa-comment"></i> 10
+                                </span>
+                            </div>
+                            <div class = "item-text">
+                                <a href = "#" class = "h1">
+                                    <span class = "category">latest</span>PUBG Mobile 2.3 update is coming: Will it resurrect BGMI?
+                                </a>
+                                <p class = "text">PUBG Mobile has announced the 2.3 update is coming later this month. The next update will bring a new Royale Pass, as well as new football gameplay in the game. Considering Battlegrounds Mobile India, popularly known as BGMI, is a clone of the app meant for the Indian market, the update should ideally come to that version. </p>
+                                <div class = "date">News | Latest | 11:00 AM</div>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- end of news latest -->
+
+                    <!-- news popular -->
+                    <div class = "news-popular">
+                        <h3>Popular News</h3>
+                        <div class = "popular-list">
+                            <article>
+                                <div class = "item-img">
+                                    <img src = "resources/images/news-6.jpg">
+                                </div>
+                                <div class = "item-text">
+                                    <a href = "#" class = "h1"><span class = "category">popular</span>Cyberpunk 2077 Fan Discovers Hidden Legendary Weapon in the Game</a>
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class = "item-img">
+                                    <img src = "resources/images/news-7.jpg">
+                                </div>
+                                <div class = "item-text">
+                                    <a href = "#" class = "h1"><span class = "category">popular</span>Call of Duty: Warzone 2 Player Gets 1 Year of Double XP</a>
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class = "item-img">
+                                    <img src = "resources/images/news11.jpg">
+                                </div>
+                                <div class = "item-text">
+                                    <a href = "#" class = "h1"><span class = "category">popular</span>Disney Dreamlight Valley Player Recreates Hogwarts’ Dining Hall </a>
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class = "item-img">
+
+
+
+                                    <img src = "resources/images/news9.jpg">
+                                </div>
+                                <div class = "item-text">
+                                    <a href = "#" class = "h1"><span class = "category">popular</span>Steam Autumn Sale Dates Announced</a>
+                                </div>
+                            </article>
+
+                            <article>
+                                <div class = "item-img">
+                                    <img src = "resources/images/news10.jpg">
+                                </div>
+                                <div class = "item-text">
+                                    <a href = "#" class = "h1"><span class = "category">popular</span>Pokemon Moon Player Beats Game With a Single Butterfree</a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <!-- end of news popular -->
+                </div>
+        </section>
+        <!-- end of news section -->
+
+        <!-- videos section -->
+        <section id = "videos">
+            <div class = "title">
+                <div class = "container">
+                    <h2>
+                        <i class = "fas fa-video"></i> Videos & Trailers
+                    </h2>
+                </div>
+            </div>
+            <div class = "container">
+                <article>
+                    <div class = "item-video">
+                        <video controls poster = "resources/videos/video-1-poster.webp">
+                            <source src = "resources/videos/video-1.mp4" type = "video/mp4">
+                        </video>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1"><span class = "category">trailer</span>BITCRAFT is a sandbox MMORPG which encourages many different play styles ranging...</a>
+                        <p class = "text">Unlike games with separate player-hosted sandbox servers, BitCraft takes place in a single massive procedurally generated world.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-video">
+                        <video controls poster = "resources/videos/video-2-poster.webp">
+                            <source src = "resources/videos/video-2.mp4" type = "video/mp4">
+                        </video>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1"><span class = "category">trailer</span>Insurgency: Sandstorm received critical acclaim for its realistic gameplay</a>
+                        <p class = "text">Insurgency: Sandstorm is a team-based, tactical FPS based on lethal close quarters combat and objective-oriented multiplayer gameplay.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-video">
+                        <video controls poster = "resources/videos/video-3-poster.webp">
+                            <source src = "resources/videos/video-3.mp4" type = "video/mp4">
+                        </video>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1"><span class = "category">trailer</span>Kena: Bridge of Spirits is a action-adventure video game developed and published by Ember Lab.</a>
+                        <p class = "text">The story follows Kena, a young spirit guide who uses her magical abilities to help deceased people move from the physical to the spirit world.</p>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-video">
+                        <video controls poster = "resources/videos/video-4-poster.webp">
+                            <source src = "resources/videos/video-4.mp4" type = "video/mp4">
+                        </video>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1"><span class = "category">trailer</span>The Legend of Zelda: Breath of the Wild</a>
+                        <p class = "text">Breath of the Wild received universal acclaim, with praise for its open-ended gameplay, open world design, and attention to detail..</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- end of videos section -->
+
+        <!-- promo section -->
+        <section id = "promo" class = "flex">
+            <div class = "container">
+                <span>join the battle</span>
+                <h2>Fortnight Battle Royale</h2>
+                <p class = "text">Fortnite is a free-to-play Battle Royale game with numerous game modes for every type of game player.</p>
+                <div class = "btn-groups flex">
+                    <a href = "#">
+                        <i class = "fas fa-play"></i><a href="https://youtu.be/miht6Lgkqb0"> watch trailer </a>
+                    </a>
+                    <a href = "#">
+                        <i class = "fas fa-gamepad"></i> <a href="https://www.xbox.com/en-us/games/store/fortnite/bt5p2x999vh2">free now</a>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- end of promo section -->
+       
+        <!-- reviews section -->
+        <section id = "reviews">
+            <div class = "title">
+                <div class = "container">
+                    <h2>
+                        <i class = "fas fa-comments"></i> Featured Reviews
+                    </h2>
+                </div>
+            </div>
+            <div class = "container">
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/rev1.jpg">
+                        <span>
+                            <i class = "fas fa-star"></i> 8
+                        </span>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">review</span>Pokemon Scarlet & Violet's open-world approach reinvigorates the long-running series.
+                        </a>
+                        <p class = "text">Scarlet and Violet make some subtle efforts to guide you to specific locations, but ultimately, how you forge your own path through the vibrant new region of Paldea is what makes it so memorable.</p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/rev2.jpg">
+                        <span>
+                            <i class = "fas fa-star"></i> 8
+                        </span>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">review</span>Tactics Ogre Reborn Review - 4D Chess
+                        </a>
+                        <p class = "text">Tactics Ogre Reborn is a superb revamp of an all-time strategy game masterpiece--though this revival is not without some small issues.</p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/rev3.jpg">
+                        <span>
+                            <i class = "fas fa-star"></i> 7
+                        </span>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">review</span>Marvel's Spider-Man: Miles Morales Review - Miles Per Power
+                        </a>
+                        <p class = "text">Marvel's Spider-Man: Miles Morales sticks a bit too close to its predecessor in terms of mechanics, but manages to stand on its own through its story and characters.</p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/rev4.jpg">
+                        <span>
+                            <i class = "fas fa-star"></i> 7
+                        </span>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">review</span>The Dark Pictures Anthology: The Devil In Me Review - Holmes Sweet Holmes 
+                        </a>
+                        <p class = "text">Supermassive calls its latest Dark Pictures entry the end of its first season, and it goes out with a bang.</p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+
+                <article>
+                    <div class = "item-img">
+                        <img src = "resources/images/rev5.jpg">
+                        <span>
+                            <i class = "fas fa-star"></i> 6
+                        </span>
+                    </div>
+                    <div class = "item-text">
+                        <a href = "#" class = "h1">
+                            <span class = "category">review</span>Somerville Review - I Wanted To Believe
+                        </a>
+                        <p class = "text">Jumpship's wordless debut comes uniquely structured, but neither the story nor the gameplay do enough to help it carry the torch it's been passed.</p>
+                        <div class = "date">Reviews | Trending | 11:00 AM</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+        <!-- end of reviews section -->
+    <!-- end of main -->
+    </main>
+    <!-- footer -->
+    <footer id = "footer">
+        <div class = "container">
+            <div class = "footer-links-1">
+                <h2>Join Gamerz:</h2>
+                <ul class = "flex">
+                    <li>
+                        <a href = "https://www.facebook.com/gaming/"><i class = "fab fa-facebook-f"></i></a>
+                    </li>
+                    <li>
+                        <a href = "https://www.youtube.com/GAMING"><i class = "fab fa-youtube"></i></a>
+                    </li>
+                    <li>
+                        <a href = "https://www.twitch.tv/twitchgaming"><i class = "fab fa-twitch"></i></a>
+                    </li>
+                    <li>
+                        <a href = "https://www.instagram.com/explore/tags/gaming/"><i class = "fab fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href = "https://twitter.com/twittergaming"><i class = "fab fa-twitter"></i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class = "footer-links-2">
+                <ul class = "flex">
+                    <li>
+                        <a href = "#">About Gamerz</a>
+                    </li>
+                    <li>
+                        <a href = "#">Advertise</a>
+                    </li>
+                    <li>
+                        <a href = "#">Privacy Policy</a>
+                    </li>
+                    <li>
+                        <a href = "#">Terms of Use</a>
+                    </li>
+                    <li>
+                        <a href = "Contact-form-main/index.html">Contact</a>
+                    </li>
+                    <li>
+                        <a href = "#reviews">Reviews</a>
+                    </li>
+                </ul>
+            </div>
+
+            <p class = "text">&copy; <a href = "#">Gamerz</a>. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <!-- end of footer -->
+
+
+    <!-- custom js -->
+    <script src = "js/script.js"></script>
+</body>
+</html>
